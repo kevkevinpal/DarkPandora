@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "Pandora Layout",
+  "description": "This extension changes the Layout of Pandora",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "https://www.pandora.com/*", "http://www.pandora.com/*"
+  ],
+
+   "content_scripts": [ 
+        { 
+            "all_frames": false, 
+            "js": [ "start.js"], 
+            "matches": [ 
+                "https://www.pandora.com/*", "http://www.pandora.com/*"
+            ],
+            "css": ["darkpandora.css"],
+            "run_at": "document_start" 
+        } 
+    ],
+    "web_accessible_resources": [
+        "start.js",
+        "darkpandora.css"
+    ]
+}

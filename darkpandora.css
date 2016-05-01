@@ -1,0 +1,47 @@
+
+body{
+    background: #000000 !important;
+}
+/*Top barz*/
+#brandingBar{
+	background-color: #2D2D2D !important;
+}
+
+#playerBar{
+	background-color: #000000 !important;
+	color: #000000 !important;
+}
+
+#topnav{
+	color: #FFFFFF !important;
+	background-color: #232323 !important;
+}
+/*Top barz*/
+
+#mainContent .stationContent{
+	background: #030913 !important;
+}
+#trackDetail .detail{
+	color: #FFFFFF !important;
+}
+
+#detailContainer{
+	background-color: #FFFFFF !important;
+}
+
+#trackDetailContainer{
+	background-color: #000000 !important;
+}
+
+/* Left Box*/
+
+#promobox{
+	display: none; !important;
+}
+
+.platformPromo{
+	display: none !important;
+}
+
+/* Left Box */
+
