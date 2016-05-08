@@ -19,20 +19,27 @@ body{
 /*Top barz*/
 
 #mainContent .stationContent{
-	background: #030913 !important;
+	background: #2D2D2D !important;
 }
 #trackDetail .detail{
-	color: #FFFFFF !important;
+	color: #2D2D2D !important;
 }
 
 #detailContainer{
-	background-color: #FFFFFF !important;
+	background-color: #2D2D2D !important;
 }
 
 #trackDetailContainer{
-	background-color: #000000 !important;
+	background-color: #2D2D2D !important;
 }
 
+#trackDetail{
+	color: white !important 
+}
+
+.detail .heading{
+	color: white !important;
+}
 /* Left Box*/
 
 #promobox{
