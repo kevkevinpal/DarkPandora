@@ -6,7 +6,7 @@
   "version": "1.0",
 
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "Pics/icon.png",
     "default_popup": "popup.html"
   },
   "permissions": [
@@ -16,16 +16,16 @@
    "content_scripts": [ 
         { 
             "all_frames": false, 
-            "js": [ "start.js"], 
+            "js": [ "JS/start.js"], 
             "matches": [ 
                 "https://www.pandora.com/*", "http://www.pandora.com/*"
             ],
-            "css": ["darkpandora.css"],
+            "css": ["CSS/darkpandora.css"],
             "run_at": "document_start" 
         } 
     ],
     "web_accessible_resources": [
-        "start.js",
-        "darkpandora.css"
+        "JS/start.js",
+        "CSS/darkpandora.css"
     ]
 }
