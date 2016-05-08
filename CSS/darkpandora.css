@@ -52,3 +52,9 @@ body{
 
 /* Left Box */
 
+/* ads */
+
+#ad_container{
+	visiblility: hidden !important;
+}
+
