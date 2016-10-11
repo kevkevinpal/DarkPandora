@@ -3,7 +3,7 @@ A Chrome Extension for a Dark Themed Pandora Music Player
 
 Here is and example
 
-![alt tag](https://raw.github.com/kevkevinpal/DarkPandora/PandoraExample.png)
+![alt tag](https://github.com/kevkevinpal/DarkPandora/blob/master/PandoraExample.png)
 
 	In order to use please
 		1. Open the menu on the right hand side of google chrome
