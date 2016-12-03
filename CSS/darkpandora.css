@@ -2,7 +2,7 @@
 body{
     background: #000000 !important;
 }
-/*Top baerz*/
+/*Top bar*/
 #brandingBar{
 	background-color: #2D2D2D !important;
 }
@@ -16,7 +16,12 @@ body{
 	color: #FFFFFF !important;
 	background-color: #232323 !important;
 }
-/*Top barz*/
+/*Top bar*/
+
+/* Main content */
+#mainContent{
+	background-color: #000000 !important;
+}
 
 #mainContent .stationContent{
 	background: #2D2D2D !important;
@@ -40,21 +45,38 @@ body{
 .detail .heading{
 	color: white !important;
 }
-/* Left Box*/
+.contentnav{
+    background-color: #001f3f !important;
+}
+.contentContainer .top{
+    background-color: #001f3f !important;
+}
+/* Main content */
 
+/* Left Box*/
 #promobox{
-	display: none; !important;
+	display: none !important;
 }
 
 .platformPromo{
 	display: none !important;
 }
 
+.stationName{
+	text-shadow: none !important;
+	color: #3476c1 !important;
+}
 /* Left Box */
 
-/* ads */
+/* Bottom */
+#footer{
+    background-color: #000000 !important;
+}
+/* Bottom */
 
+/* ads */
 #ad_container{
 	visiblility: hidden !important;
 }
+/* ads */
 
