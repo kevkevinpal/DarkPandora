@@ -1,9 +1,10 @@
 {
   "manifest_version": 2,
 
-  "name": "Pandora Layout",
-  "description": "This extension changes the Layout of Pandora",
-  "version": "1.0",
+  "name": "Darker Pandora",
+  "short_name": "Dark Pandora",
+  "description": "This extension changes the colors of Pandora",
+  "version": "0.0.0.21",
 
   "browser_action": {
     "default_icon": "Pics/icon.png",
