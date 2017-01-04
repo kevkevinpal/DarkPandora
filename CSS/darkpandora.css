@@ -110,10 +110,14 @@ body{
 	background-color: #05012b !important;
 }
 
-/*
-.clearfix{
-	width: 1000px !important;
+
+
+.stationListHolder {
+    height: calc(100% - 30px) !important;
 }
-.stationListItem.selected .options{
-	display: none !important;
+
+/* make the thing wider */
+#mainContentContainer,.slidesBackground,#footer {
+    width: 100% !important;
 }
+/* Copied code from other "Dark Pandora Extention" */
