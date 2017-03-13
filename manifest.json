@@ -4,7 +4,7 @@
   "name": "Darker Pandora",
   "short_name": "Dark Pandora",
   "description": "This extension changes the colors of Pandora",
-  "version": "0.0.0.22",
+  "version": "0.0.0.30",
 
   "browser_action": {
     "default_icon": "Pics/icon.png",
@@ -21,7 +21,7 @@
             "matches": [ 
                 "https://www.pandora.com/*", "http://www.pandora.com/*"
             ],
-            "css": ["CSS/darkpandora.css"],
+            "css": ["CSS/darkpandora1.css"],
             "run_at": "document_start" 
         } 
     ],

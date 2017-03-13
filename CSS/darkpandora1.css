@@ -1,0 +1,51 @@
+div.Container__splash{
+	background-image: url(/Pics/PandoraSplash.jpg) !important;
+	background-color: #000000 !important;
+	background: linear-gradient(deg, rgb(0,0,0) 0%, rgb(0,0,0) 100%) !important;
+	
+}
+
+
+
+.Container__splash__logo{
+			
+			background-image: url(/Pics/PandoraSplash.jpg) !important;
+			
+}
+
+
+.NowPlaying__centerWrapper, .NowPlaying__content, .SearchModal--rightRail, .Nav, .MyStationsGrid__gridContainer, .MyStations .MyStations__Header
+, .BrowseGenresCta, .Footer--dark {
+	background-color: #000000 !important;
+}
+
+.Tuner__Audio__NowPlayingHitArea{
+	background-color: #05012b !important;
+}
+
+.MiniBar{
+	opacity: 1 !important;
+}
+
+.region-topBar--rightRail, .MiniBar--rightRail, .region-main--rightRail, .region-bottomBar--rightRail{
+	width: 100% !important;
+}
+
+.SearchModal--navStyle{
+	width: 80rem !important;
+}
+.MiniBar{
+    background: linear-gradient(0deg,
+    	rgba(0,0,0,.2),
+    	rgba(0,0,0,.2)),
+    	linear-gradient(0deg,#020613,#224099) 
+    	!important;
+ }
+
+body{
+	background-color: #000000 !important;
+}
+
+.Nav--lightTheme .Nav__primaryMenu__item__link{
+	color: rgba(255, 255, 255, 0.8) !important;
+}
